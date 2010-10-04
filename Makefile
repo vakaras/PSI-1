@@ -3,6 +3,8 @@ default: fresh
 # Sugeneruoti straipsnį.
 dokumentas.pdf:
 	xelatex main.tex
+	bibtex main
+	xelatex main.tex
 	xelatex main.tex
 	mv main.pdf dokumentas.pdf
 
