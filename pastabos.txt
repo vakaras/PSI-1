@@ -1,0 +1,63 @@
+=================================================
+Verslo / Veiklos tikslų ir poreikių specifikacija
+=================================================
+
+Uždavinio pasirinkimas
+======================
+
+Pasirinktas uždavinys turi būti toks, kad galima būtų suformuluoti visas
+nefunkcinių reikalavimų rūšis:
+
++ našumas,
++ patikimumas,
++ apsauga,
++ teisiniai reikalavimai,
++ sąsajos reikalavimai.
+
+Turi būti įmanoma atsakyti į klausimus:
+
++ Kokia yra įeiga (naudojami ištekliai)? (Laikas, pinigai.)
++ Kokia yra išeiga (veiklos rezultatai)?
++ Kaip šis verslas yra reguliuojamas? (Teisės aktai.)
++ Kaip įvertinti šio verslo įvaizdžio lygį? (Gal moksleivių pasitenkinimo 
+  lygis nurodytas anketose?)
+
+
+Darbo vertinimas
+================
+
+Kriterijai:
+
++ esmė,
++ gebėjimas apipavidalinti pagal pateiktus reikalavimus,
++ taisyklinga lietuvių kalbos vartosena,
++ taisyklinga terminų vartosena.
+
+Pastabos
+========
+
++ Specifikacija rašoma liepiamąja nuosaka!
+
+XYZ stovyklos organizavimas
+===========================
+
+Dalyvauja apie ~100 mokinių.
+
++ Surandami rėmėjai.
++ Nusprendžiama data.
++ Surandamos patalpos (miegas, paskaitos, laisvalaikis).
++ Surandamas maitinimas.
++ Surandami dėstytojai (kada, ką ir už kiek gali dėstyti).
++ Atrenkami moksleiviai.
++ Išsiunčiami kvietimai moksleiviams.
++ Moksleiviai nusprendžia ar dalyvauja. Atsiunčia savo duomenis.
++ Moksleiviai susimoka už sesiją.
++ Suskirstomi moksleiviai į grupes, grupėms paskiriami prižiūrintys asmenys.
++ Moksleiviai pasirenka kokias paskaitas nori klausyti.
++ Sudaromas stovyklos tvarkaraštis.
++ Dėstytojai atsiunčia reikalavimus. (Ko reikės dėstant.)
++ Dėstytojai atsiunčia užduotis mokiniams, kurias jie turi padaryti iki 
+  stovyklos.
++ Vyksta stovykla.
++ Atsiskaitoma su visais už paslaugas.
++ Analizuojami moksleivių atsiliepimai.
