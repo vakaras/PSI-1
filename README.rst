@@ -14,7 +14,7 @@ Failai
 + `dokumentas.pdf` – sukompiliuotas dokumentas. Sukompiliuoti galima su
   komanda (reikalavimus žr. `Reikalavimai`_):
 
-  .. code-block:: sh
+  ::
     make; make clean
 
 Ignoruojami failų formatai 
@@ -39,5 +39,5 @@ Naudingos nuorodos
 Reikalavimai
 ============
 
-.. code-block:: sh
+::
   sudo apt-get install textlive-full texlive-xetex
