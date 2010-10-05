@@ -12,7 +12,7 @@ fresh: clear dokumentas.pdf
 
 # Išvalyti šiukšles.
 clean:
-	rm -f *.aux *.log *.xdv *.out *.toc
+	rm -f *.aux *.log *.xdv *.out *.toc *.bbl *.blg
 
 # Ištrinti visus sugeneruotus failus.
 clear: clean
