@@ -49,7 +49,9 @@ vertinimo kriterijus:
     kuriam reikėjo) skaičius;
   \item neištaisytų klaidų skaičius;
   \item pažeidimų  ir klaidų sukeltų padarinių vertė – kiek kainuotų juos 
-    pašalinti, jei būtų bandoma tai daryti + moralinė žala.
+    pašalinti, jei būtų bandoma tai daryti + moralinė žala;
+  \item didžiausias galimas turimos komandos aptarnaujamų moksleivių 
+    skaičius.
 \end{enumerate}
 
 Kriterijų detalizavimas, ir jų kritinės vertės:
@@ -74,6 +76,8 @@ Kriterijų detalizavimas, ir jų kritinės vertės:
   \hline
   Pažeidimų ir klaidų kaina & Litais & > 1000Lt \\
   \hline
+  Aptarnautų moksleivių skaičius & Vienetais & < 80 \\
+  \hline
 \end{tabular}
 
 \subsection{Problemos, grėsmės ir neišnaudotos galimybės}
@@ -85,38 +89,116 @@ Problemos:
 
 Grėsmės:
 \begin{itemize}
-  \item Padidėjus stovyklos kainai, moksleiviai gali nebevažiuoti, nes 
-    jiems bus per brangu.
-  \item Moksleivių noro dalyvauti mažėjimas.
   \item Paramos gaunamos iš rėmėjų mažėjimas. 
                                         % Gali sukelti tiek populiarumo 
                                         % mažėjimas, tiek didelis klaidų
                                         % kiekis.
+  \item Padidėjus stovyklos kainai, moksleiviai gali nebevažiuoti, nes 
+    jiems bus per brangu.
+  \item Moksleivių noro dalyvauti mažėjimas.
 \end{itemize}
 
-% Neišnaudotos galimybės TODO – sugalvoti.
+Neišnaudos galimybės:
+\begin{itemize}
+% TODO O kaip jei šio mato padidėjimas, taip pat leistų geriau aptarnauti
+% esamus, nes būtų daugiau laiko įsiklausyti į jų specialiuosius 
+% pageidavimus? Jei kriterijus būtų ne apskritai kiek moksleivių komanda
+% yra pajėgi aptarnauti, bet kiek ji yra pajėgi pašalinti specialiųjų
+% atvejų?
+  \item Į stovykla pakviečiama mažiau moksleivių, negu gauta parama
+    suteikia galimybę pakviesti.        % TODO Ar tai tikrai yra 
+                                        % neišnaudota galimybė?
+% \item Į stovykla kviečiama mažiau moksleivių nei leidžia biudžetas, nes
+%   organizavimo komanda nėra pajėgi jų visų aptarnauti.
+\end{itemize}
 
 \section{Vidinė verslo proceso analizė}
 
+Problemos:
+\begin{itemize}
+  \item Atlikus analizę paaiškėjo, jog tam, kad proceso vykdymo metu yra
+    padaroma daug klaidų, bei tam, kad jos nėra laiku ištaisomos turi
+    įtakos:
+    \begin{enumerate}
+      \item Visi darbai daromi rankomis. (Pavyzdžiui: nors ir kvietimai
+        siunčiami elektroniniu paštu, bet jų tekstas yra renkamas ranka.)
+      \item Netikėti vėlavimai atliekant proceso grandinės dalis. Dėl jų 
+        negalima atlikti vėlesnių tai grandinei priklausančių darbų, nes
+        jie yra nuo jos priklausomi. Dėl to paskutinę savaitę susikaupia
+        darbų sankaupa, su kuria nebepajėgiama susitvarkyti.
+    \end{enumerate}
+\end{itemize}
 
-\section{Vidinė verslo proceso analizė}
+Grėsmės:
+\begin{itemize}
+  \item Padidėjus paliktų klaidų skaičiui, rėmėjai gali nuspręsti, kad 
+    stovyklos organizatoriai nėra pajėgus kokybiškai panaudoti jų pinigus
+    ir todėl nutraukti finansavimą, dėl ko padidėtų dalyvavimo mokestis ir
+    dalis moksleivių nebegalėtų dalyvauti.
+  \item Kritus stovyklos organizavimo kokybei, gali sumažėti stovyklos
+    populiarumas.
+\end{itemize}
 
 \section{Verslo tobulinimo strategija}
 
-Siekis: ne padidinti galimybes, o numušti kainą. (Sumažinti 
-pasiruošimo trukmę ir sumažinti klaidų skaičių.)
-
+Pagrindinis verslo tobulinimo siekis: padidinti darbo efektyvumą ir 
+sumažinti klaidų skaičių.
 
 \section{Strateginiai ir operaciniai tikslai verslo tobulinimo %
   strategijai įgyvendinti}
 
 Strateginiai tikslai:
+\begin{enumerate}
+  \item \label{tiksl_efek} Padidinti darbo efektyvumą.
+    \begin{enumerate}
+      \item \label{tiksl_auto} Įdiegti priemones leidžiančias automatizuoti 
+        mechaninius darbus:
+        \begin{enumerate}
+          \item \label{tiksl_el} kvietimų moksleiviams siuntimas;
+          \item \label{tiksl_r} moksleivių informacijos surinkimas.
+        \end{enumerate}
+    \end{enumerate}
+  \item \label{tiksl_kl} Sumažinti klaidų skaičių.
+    \begin{enumerate}
+      \item \label{tiksl_vald} Įdiegti priemones leidžiančias efektyviai 
+        sekti ir valdyti darbo eigą:
+        \begin{enumerate}
+          \item \label{tiksl_dvisk} vienoje vietoje matyti visų darbų 
+            sąrašą, bei kaip jų vykdymas atitinka numatytąjį planą;
+          \item \label{tiksl_dbus} peržiūrėti darbo būseną (negalimas 
+            pradėti vykdyti, nes
+            nebaigti kiti darbai nuo kurių šis priklauso; galimas pradėti
+            vykdyti; pradėtas vykdyti; baigtas vykdyti; patikrintas);
+          \item \label{tiksl_dinfo} peržiūrėti darbo informaciją (ką 
+            konkrečiai reikia 
+            atlikti; kokius darbus reikia atlikti prieš tai; kada 
+            vėliausiai darbas turi būti pradėtas, kad būtų baigtas laiku;
+            kiek vidutiniškai jį užtrunka atlikti; kokios dažniausiai 
+            iškyla problemos jį vykdant; jei vėluoja, tai kiek);
+          \item \label{tiksl_dvyk} peržiūrėti vykdytojus (kas vykdė/vykdo 
+            šį darbą; kas atliko peržiūrą);
+          \item \label{tiksl_dv} kiekvienas vykdytojas (jei jam suteiktos 
+            tokios teisės) gali pasiimti darbą vykdymui arba peržiūrai.
+                                        % XXX Rašant naudojimo scenarijų, 
+                                        % nepamiršti patikrinti ar aktorius
+                                        % turi reikiamas teises atlikti 
+                                        % veiksmą. (Ne visiems leidžiama
+                                        % dirbti su asmeniniais moksleivių
+                                        % duomenimis.)
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
 
-* Sumažinti trukmę.
+\section{Užsakovo poreikių analizė}
 
-  * Išskirstyti darbus.
-  * Automatizuoti kai kuriuos darbus.
+% TODO Kaip daryti lenteles su LaTeX parašyta čia:
+% http://en.wikibooks.org/wiki/LaTeX/Tables
 
-* Sumažinti klaidų skaičių.
-
-  * Automatizuoti kai kuriuos darbus.
+\begin{tabular}[]{| l | p{1.6cm} | p{5.8cm} | c |}
+  \hline
+  Nr. & Operacinis tikslas & Resursai, reikalingi tikslui įgyvendinti &
+  Prioritetas \\
+  \hline
+  1. & \ref{tiksl_el} & TODO & ? \\
+  \hline
+\end{tabular}
