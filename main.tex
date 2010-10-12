@@ -15,6 +15,15 @@
 
 \defaultfontfeatures{Mapping=tex-text}
 
+% Numeravimo stiliaus pakeitimas.
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\theenumiii}
+
+% TODO Susitvarkyti su numeravimo atvaizdavimu. (nested enumerate; 
+% label-ref)
+
 \begin{document}
 
 \input{./title.tex}
