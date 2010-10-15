@@ -3,7 +3,7 @@ Darbų sąrašas
 
 + Vytautas A.:
   + *N* Užsakovo poreikių analizė (2.4 skyrius)
-  + *N* Parašyti CV, nusiųsti Mongei (2.6.2 skyriui)
+  + **Y** Parašyti CV, nusiųsti Mongei (2.6.2 skyriui)
   
 + Vytautas B.:
   + *N* Juridinis įgyvendinamumas (2.6.4 skyrius)
