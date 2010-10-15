@@ -1,14 +1,40 @@
 \chapter{Užsakovo poreikių analizė}
 
-% TODO Kaip daryti lenteles su LaTeX parašyta čia:
-% http://en.wikibooks.org/wiki/LaTeX/Tables
+\ref{tab:poreikiai} lentelėje pateiktas sąrašas kompiuterinių resursų, 
+kurių reikia norinti įgyvendinti \emph{\nameref{section_strat_oper_tiksl}}
+skyrelyje aprašytiems operaciniams tikslams.
 
-\begin{tabular}[]{| l | p{1.6cm} | p{5.8cm} | c |}
-  \hline
-  Nr. & Operacinis tikslas & Resursai, reikalingi tikslui įgyvendinti &
-  Prioritetas \\
-  \hline
-  1. & \ref{tiksl_el} & TODO & ? \\
-  \hline
-\end{tabular}
-
+\begin{table}
+  \centering
+  \begin{tabular}[]{| l | p{1.6cm} | p{5.8cm} | c |}
+    \hline
+    Nr. & Operacinis tikslas & Resursai, reikalingi tikslui įgyvendinti &
+    Prioritetas \\
+    \hline
+    1. & \ref{tiksl_el} & 
+      Pašto serveris; duomenų bazė su moksleivių duomenimis; automatinė 
+      dokumentų kūrimo sistema. & 1 \\
+    \hline
+    2. & \ref{tiksl_r} & 
+      Svetainė, jos valdymo ir priežiūros įrankiai; duomenų bazė moksleivių
+      duomenims saugoti; automatinė dokumentų kūrimo sistema. & 1 \\
+    \hline
+    3. & \ref{tiksl_dvisk} &
+      Duomenų bazė duomenims apie darbus saugoti. & 2 \\
+    \hline
+    4. & \ref{tiksl_dbus} &
+      Duomenų bazė duomenims apie darbus saugoti. & 2 \\
+    \hline
+    5. & \ref{tiksl_dinfo} &
+      Duomenų bazė duomenims apie darbus saugoti. & 2 \\
+    \hline
+    6. & \ref{tiksl_dvyk} &
+      Duomenų bazė duomenims apie darbus ir jų vykdytojus saugoti. & 3 \\
+    \hline
+    7. & \ref{tiksl_dv} &
+      Duomenų bazė duomenims apie darbus ir jų vykdytojus saugoti. & 3 \\
+    \hline
+  \end{tabular}
+  \caption{Užsakovo poreikių analizės lentelė}
+  \label{tab:poreikiai}
+\end{table}
