@@ -18,7 +18,7 @@ Paskirti darbai
 ===============
 
 + Vytautas A.:
-  + *N* Užsakovo poreikių analizė (2.4 skyrius, failas „needs.tex“)
+  + **Y** Užsakovo poreikių analizė (2.4 skyrius, failas „needs.tex“)
   + **Y** Parašyti CV, nusiųsti Mongei (2.6.2 skyriui)
   
 + Vytautas B.:
