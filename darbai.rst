@@ -1,5 +1,21 @@
+=============
 Darbų sąrašas
 =============
+
+Nepaskirti darbai
+=================
+
++ Parašyti išvadas.
++ Parašyti įvadą.
++ Sutvarkyti stilių.
++ Atlikti peržiūrą:
+
+  + Atitikimas reikalavimams.
+  + Loginis darbo vientisumas.
+  + Stilistinis darbo vientisumas.
+
+Paskirti darbai
+===============
 
 + Vytautas A.:
   + *N* Užsakovo poreikių analizė (2.4 skyrius, failas „needs.tex“)
