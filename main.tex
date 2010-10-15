@@ -10,7 +10,8 @@
 \usepackage{alltt}
 \usepackage[]{hyperref}
 \usepackage[all]{hypcap}
-%\usepackage{listingsutf8}
+\usepackage[toc,acronym,xindy,translate=false]{glossaries}
+\usepackage{glossaries-babel}
 
 \hypersetup{pdfborder={0 0 0 0}}
 
@@ -22,8 +23,14 @@
 \renewcommand{\theenumiii}{\arabic{enumiii}}
 \renewcommand{\labelenumiii}{\theenumiii}
 
+% Nurodymas sugeneruoti terminų žodynėlį.
+\makeglossaries
+
 % TODO Susitvarkyti su numeravimo atvaizdavimu. (nested enumerate; 
 % label-ref)
+
+\input{./translations.tex}              % LaTeX raktažodžių vertimai.
+\input{./glossary.tex}                  % Terminų žodynėlis.
 
 \begin{document}
 
@@ -39,12 +46,15 @@
 \input{./realizability1.tex}
 \input{./realizability2.tex}
 \input{./conclusion.tex}
-\input{./appendixes.tex}
 
 \clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{Literatūra}
 \bibliographystyle{plain}
 \bibliography{bibliography}
+
+\printglossary
+
+\input{./appendixes.tex}
 
 \end{document}

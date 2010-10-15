@@ -11,6 +11,7 @@ Nepaskirti darbai
 + Atlikti peržiūrą:
 
   + Atitikimas reikalavimams.
+  + Ar visi naudojami terminai paaiškinti žodyne.
   + Loginis darbo vientisumas.
   + Stilistinis darbo vientisumas.
 
