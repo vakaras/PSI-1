@@ -1,1 +1,12 @@
 dokumentas.pdf
+*.acn
+*.aux
+*.bbl
+*.blg
+*.glg
+*.glo
+*.gls
+*.log
+*.out
+*.toc
+*.xdy
