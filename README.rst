@@ -40,4 +40,8 @@ Reikalavimai
 ============
 
 ::
-  sudo apt-get install textlive-full texlive-xetex
+  sudo apt-get install textlive-full texlive-xetex xindy
+
+Atnaujinta *glosaries* paketo versija iš:
+http://tug.ctan.org/tex-archive/macros/latex/contrib/glossaries/
+(TeX duombazę perkrauna komanda **sudo texhash**.)
