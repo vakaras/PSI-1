@@ -11,13 +11,38 @@ Darbuotojai dirba su savo asmeniniais kompiuteriais, kuriuose naudoja
 sąraše yra „Windows XP“, „Windows 7“, „Ubuntu Linux“, „Xubuntu Linux“,
 „Gentoo Linux“). Dauguma darbuotojų turi didelę darbo su biuro 
 programomis patirtį.
-% TODO Išversti ir papildyti.
 
 \section{Scenarijaus aprašas}
 
 \ref{fig:uml_usecase} diagramoje pavaizduota darbo su sistema UML schema.
+\hfill \\
 
+Vadovas informuoja sistemą, kad stovyklos organizavimas yra pradedamas.
+Jis į sistemą įkelia darbų sąrašą, kiekvienam darbui nurodydamas atributus.
+Po to         % TODO : Atributus įkelti į žodyną
+prideda vykdytojus, kurie atlikinės darbus iš darbų sąrašo. Vos pridėjus
+vykdytoją, sistema jį apie tai informuoja elektroniniu laišku. 
 
+Vykdytojas prisijungęs prie
+sistemos gali peržiūrėti darbų sąrašą. Jis pasirenka
+darbą, kurį atlikinės. Baigęs pasirinkto darbo vykdymą, pažymi tą
+darbą kaip atliktą. Sistema informuoja vadovą apie darbo atlikimą ir
+paprašo tai patvirtinti. Vadovui atmetus darbo atlikimą, sistema informuoja
+apie tai vykdytoją prašydama pataisyti darbą. Vykdytojui patvirtinus
+apie darbo pataisymą, sistema vėl prašo vadovo patvirtinti darbo kokybę. 
+Taip daroma tol, kol vadovas patvirtina darbo kokybę. 
+
+Vėliau vadovas prideda kviečiamų moksleivių sąrašą. Sistema jiems išsiunčia
+kvietimus reikalaudama patvirtinti, jog dalyvaus, arba pranešti, kad negalės 
+atvykti. Patvirtinusių dalyvavimą moksleivių paprašoma patikslinti jų 
+asmeninius duomenis, patvirtinti jų teisingumą. Kai užbaigiamas tvarkaraščio
+sudarymo darbas, sistema nusiunčia visiems dalyvausiantiems moksleiviams
+tvarkaraščio kopiją.
+
+Pasibaigus stovyklai vadovas praneša apie tai sistemai. Ji moksleiviams
+išsiuntinėja stovyklos vertinimo anketas bei darbų vykdytojų paprašo 
+pateikti stovyklos raportą. Sistema, gavusi visus grįžtamuosius atsakymus,
+suformuoja ataskaitą ir ją pateikia stovyklos vadovui.
 
 \begin{figure}[htb]
   \begin{center}
@@ -30,37 +55,39 @@ programomis patirtį.
 
 \subsection{Darbo vietų aprašas}
 \begin{enumerate}
-  \item Vadovas
+  \item \emph{Vadovas}
 	\begin{itemize}
-	  \item Techninė įranga
+	  \item Techninė įranga:
 		\begin{enumerate}
-			\item Kompiuteris su internetu
+			\item kompiuteris su internetu.
 		\end{enumerate}
-	  \item Programinė įranga
+	  \item Programinė įranga:
 		\begin{enumerate}
-			\item Operacinė sistema, interneto naršyklė
+			\item operacinė sistema;
+      \item interneto naršyklė.
 		\end{enumerate}
-	  \item Kvalifikaciniai reikalavimai
+	  \item Kvalifikaciniai reikalavimai:
 		\begin{enumerate}
-			\item Kompiuterinio raštingumo pagrindai
-			\item Sistemos "Skirstytuvas" administavimo apmokymas % FIXME
+			\item kompiuterinio raštingumo pagrindai;
+			\item sistemos „Skirstytuvas“ administravimo apmokymas.
 		\end{enumerate}
 	\end{itemize}
 
-  \item Vykdytojas
+  \item \emph{Vykdytojas}
 	\begin{itemize}
-	  \item Techninė įranga
+	  \item Techninė įranga:
 		\begin{enumerate}
-			\item Kompiuteris su internetu
+			\item kompiuteris su internetu.
 		\end{enumerate}
-	  \item Programinė įranga
+	  \item Programinė įranga:
 		\begin{enumerate}
-			\item Operacinė sistema, interneto naršyklė
+			\item operacinė sistema;
+      \item interneto naršyklė.
 		\end{enumerate}
-	  \item Kvalifikaciniai reikalavimai
+	  \item Kvalifikaciniai reikalavimai:
 		\begin{enumerate}
-			\item Kompiuterinio raštingumo pagrindai
-			\item Sistemos "Skirstytuvas" naudojimo apmokymas
+			\item kompiuterinio raštingumo pagrindai;
+			\item sistemos „Skirstytuvas“ naudojimo apmokymas.
 		\end{enumerate}
 	\end{itemize}
 \end{enumerate}

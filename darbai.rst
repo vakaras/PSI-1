@@ -31,8 +31,8 @@ Paskirti darbai
   + *N* Parašyti CV, nusiųsti Mongei (2.6.2 skyriui)
 
 + Egidijus:
-  + *N* Sistemos naudojimo scenarijus (2.5 skyrius, failas „usecase.tex“)
-  + *N* Parašyti CV, nusiųsti Mongei (2.6.2 skyriui)
+  + **Y** Sistemos naudojimo scenarijus (2.5 skyrius, failas „usecase.tex“)
+  + **Y** Parašyti CV, nusiųsti Mongei (2.6.2 skyriui)
 
 + Ernestas:
   + *N* Operacinis įgyvendinamumas (2.6.1 skyrius, 
