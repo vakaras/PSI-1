@@ -16,7 +16,7 @@ Paskirti darbai
 
 + Vytautas A.:
   + **Y** Užsakovo poreikių analizė (2.4 skyrius, failas „needs.tex“)
-  + *N* Parašyti CV (2.6.2 skyriui)
+  + **Y** Parašyti CV (2.6.2 skyriui)
   + *N* Sutvarkyti titulinį puslapį.
   
 + Vytautas B.:
