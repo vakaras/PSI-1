@@ -34,15 +34,6 @@
   plural={operaciniai tikslai}
   }
 
-\newglossaryentry{saitynas}{
-  name={saitynas},
-  description={
-    Hipertekstinės informacijos visuotinis tinklas, svarbiausias interneto
-    komponentas
-    },
-  sort=saitynas
-  }
-
 \newglossaryentry{duom_baz}{
   name={duomenų bazė},
   description={
@@ -99,6 +90,68 @@
   sort=svetainė,
   plural=svetainės
   }
-% TODO darbo klaidos: pavyzdžiui, rėmėjo pavadinimas  atspausdintas su 
-% klaida arba kvietimas išsiųstas ne tam moksleiviui, 
-%   kuriam reikėjo)
+
+\newglossaryentry{darb_kl}{
+  name={darbo klaida},
+  description={
+    Tiksliai apibrėžiamas neatitikimas tarp gautojo darbo rezultato ir
+    to, kurio buvo tikėtasi. Pavyzdžiui: rėmėjo pavadinimas atspausdintas
+    su klaida arba kvietimas išsiųstas ne tam moksleiviui, kuriam reikėjo
+    },
+  user1={darbo klaidų},
+  sort={darbo klaida},
+  plural={darbo klaidos}
+  }
+  \newcommand{\glsdarbkldgsk}{\glsuseri{darb_kl}}
+
+\newglossaryentry{saitynas}{
+  name={saitynas},
+  description={
+    Hipertekstinės informacijos visuotinis tinklas, svarbiausias interneto
+    komponentas. (Angliškai: \emph{Web 2.0})
+    },
+  user1={saitynu},
+  sort={saitynas},
+  plural={saitynai}
+  }
+  \newcommand{\glssaitynasvnsi}{\glsuseri{saitynas}}
+
+\newglossaryentry{spec_poreik}{
+  name={specialusis poreikis},
+  description={
+    Poreikiai, norai, pageidavimai, kurių turi tik vienas moksleivis. 
+    Pavyzdžiui, noras dalyvauti tik pusėje stovyklos, nes stovyklos vykimo
+    data kertasi su olimpiados, kurioje moksleivis dalyvauja, data
+    % TODO Perrašyti!
+    },
+  user1={specialiuosius poreikius},
+  sort={specialusis poreikis},
+  plural={specialieji poreikiai}
+  }
+  \newcommand{\glsspecporeikdgsg}{\glsuseri{spec_poreik}}
+
+\newglossaryentry{darb_poz}{
+  name={darbo požymiai},
+  description={
+    Dominančios informacijos apie konkretų darbą rinkinys. Įskaitant, bet
+    neapsiribojant: darbo pavadinimas, užduoties aprašymas, vidutinė
+    atlikimo trukmė, leidimai, kuriuos turi turėti \gls{vykdytojas}, 
+    norintis imtis šio darbo
+    % TODO Perrašyti!
+    },
+  user1={darbo požymius},
+  sort={darbo požymiai},
+  plural={darbų požymiai}
+  }
+  \newcommand{\glsdarbpozvnsg}{\glsuseri{darb_poz}}
+
+\newglossaryentry{vykdytojas}{
+  name={vykdytojas},
+  description={
+    Žmogus atliekantis darbus
+    },
+  user1={vykdytojus},
+  sort={vykdytojas},
+  plural={vykdytojai}
+  }
+  \newcommand{\glsvykdytojasdgsg}{\glsuseri{vykdytojas}}
