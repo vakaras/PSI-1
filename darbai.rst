@@ -5,10 +5,7 @@ Darbų sąrašas
 Nepaskirti darbai
 =================
 
-+ Atlikti peržiūrą:
-
-  + Ar visi naudojami terminai paaiškinti žodyne.
-  + Stilistinis darbo vientisumas.
++ Išsiųsti Giedrimui.
 
 Paskirti darbai
 ===============
