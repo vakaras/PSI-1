@@ -9,7 +9,6 @@ Nepaskirti darbai
 
   + Ar visi naudojami terminai paaiškinti žodyne.
   + Stilistinis darbo vientisumas.
-  + Sutvarkyti CV
 
 Paskirti darbai
 ===============
@@ -24,7 +23,7 @@ Paskirti darbai
     failas „realizability1.tex“)
   + **Y** Sistemos panaudojimas (2.6.5 skyrius, failas „realizability1.tex“)
   + **Y** Sistemos teikiama nauda (2.6.6 skyrius, failas „realizability1.tex“)
-  + *N* Parašyti CV (2.6.2 skyriui)
+  + **Y** Parašyti CV (2.6.2 skyriui)
   + *N* Padaryti skaidres pristatymui.
 
 + Egidijus:
