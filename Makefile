@@ -21,3 +21,7 @@ clean:
 # Ištrinti visus sugeneruotus failus.
 clear: clean
 	rm -f *.pdf
+
+# Įkelti sukompiliuotą dokumentą į serverį.
+upload: dokumentas.pdf
+	scp dokumentas.pdf 77.79.7.73:~/failai/psi1/dokumentas.pdf

@@ -6,6 +6,7 @@ Nepaskirti darbai
 =================
 
 + Išsiųsti Giedrimui.
++ Paruošti skaidres. (Dokumentai/pastabos.txt)
 
 Paskirti darbai
 ===============
